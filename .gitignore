@@ -1,0 +1,85 @@
+# compiled output
+api//dist
+api//node_modules
+api//build
+
+# Logs
+api/logs
+api/*.log
+api/npm-debug.log*
+api/pnpm-debug.log*
+api/yarn-debug.log*
+api/yarn-error.log*
+api/lerna-debug.log*
+
+# OS
+api/.DS_Store
+
+# Tests
+api//coverage
+api//.nyc_output
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+api/.env
+api/.env.development.local
+api/.env.test.local
+api/.env.production.local
+api/.env.local
+
+# temp directory
+api/.temp
+api/.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+api/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+api/.env.local
+api/env.docker
+
+
+## UI FILES 
+# dependencies
+ui/node_modules
+ui/.pnp
+ui/.pnp.js
+
+# testing
+ui/coverage
+
+# production
+ui/build
+
+# misc
+.DS_Store
+ui/.env
+ui/.env.local
+ui/.env.development.local
+ui/.env.test.local
+ui/.env.production.local
+ui/.env.docker
+
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
